@@ -1,0 +1,1018 @@
+2024-07-06 19:11:07.207 +08:00 [INF] Starting web host.
+2024-07-06 19:11:11.113 +08:00 [INF] Loaded ABP modules:
+2024-07-06 19:11:11.114 +08:00 [INF] - LibraryManagement.Web.LibraryManagementWebModule
+2024-07-06 19:11:11.114 +08:00 [INF]   - LibraryManagement.LibraryManagementHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - LibraryManagement.LibraryManagementApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - LibraryManagement.LibraryManagementDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2024-07-06 19:11:11.114 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2024-07-06 19:11:11.114 +08:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2024-07-06 19:11:11.114 +08:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-07-06 19:11:11.114 +08:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-07-06 19:11:11.114 +08:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-07-06 19:11:11.114 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-07-06 19:11:11.114 +08:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-07-06 19:11:11.114 +08:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-07-06 19:11:11.114 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2024-07-06 19:11:11.114 +08:00 [INF]   - LibraryManagement.LibraryManagementApplicationModule
+2024-07-06 19:11:11.114 +08:00 [INF]     - LibraryManagement.LibraryManagementDomainModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-07-06 19:11:11.114 +08:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2024-07-06 19:11:11.115 +08:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-07-06 19:11:11.115 +08:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-07-06 19:11:11.115 +08:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - LibraryManagement.MongoDB.LibraryManagementMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.PermissionManagement.MongoDB.AbpPermissionManagementMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.SettingManagement.MongoDB.AbpSettingManagementMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.Identity.MongoDB.AbpIdentityMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.OpenIddict.MongoDB.AbpOpenIddictMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.BackgroundJobs.MongoDB.AbpBackgroundJobsMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.TenantManagement.MongoDB.AbpTenantManagementMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.FeatureManagement.MongoDB.AbpFeatureManagementMongoDbModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2024-07-06 19:11:11.115 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.SettingManagement.Web.AbpSettingManagementWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.Account.Web.AbpAccountWebOpenIddictModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.Account.Web.AbpAccountWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2024-07-06 19:11:11.115 +08:00 [INF]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.AbpAspNetCoreMvcUiLeptonXLiteThemeModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.TenantManagement.Web.AbpTenantManagementWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementWebModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-07-06 19:11:11.115 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-07-06 19:11:11.296 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2024-07-06 19:11:11.312 +08:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2024-07-06 19:11:11.817 +08:00 [INF] User profile is available. Using '/Users/satoaki/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-07-06 19:11:12.491 +08:00 [INF] Initialized all ABP modules.
+2024-07-06 19:11:12.877 +08:00 [INF] Now listening on: https://localhost:44364
+2024-07-06 19:11:12.878 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 19:11:12.878 +08:00 [INF] Hosting environment: Development
+2024-07-06 19:11:12.878 +08:00 [INF] Content root path: /Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web
+2024-07-06 19:11:14.815 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2024-07-06 19:11:42.620 +08:00 [ERR] A timeout occurred after 30000ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (61): Connection refused [::1]:27017
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.Connect(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2024-07-06T11:11:42.5563510Z", LastUpdateTimestamp: "2024-07-06T11:11:42.5563520Z" }] }.
+System.TimeoutException: A timeout occurred after 30000ms selecting a server using CompositeServerSelector{ Selectors = ReadPreferenceServerSelector{ ReadPreference = { Mode : Primary } }, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Sockets.SocketException (61): Connection refused [::1]:27017
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.Connect(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2024-07-06T11:11:42.5563510Z", LastUpdateTimestamp: "2024-07-06T11:11:42.5563520Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.ThrowTimeoutException(IServerSelector selector, ClusterDescription description)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedHelper.HandleCompletedTask(Task completedTask)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChanged(IServerSelector selector, ClusterDescription description, Task descriptionChangedTask, TimeSpan timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServer(IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.IClusterExtensions.SelectServerAndPinIfNeeded(ICluster cluster, ICoreSessionHandle session, IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Bindings.ReadPreferenceBinding.GetReadChannelSource(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Bindings.ReadBindingHandle.GetReadChannelSource(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.Initialize(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.Create(IReadBinding binding, Boolean retryRequested, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ListCollectionsOperation.Execute(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.ExecuteReadOperation[T](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.ListCollections(IClientSessionHandle session, ListCollectionsOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.<>c__DisplayClass42_0.<ListCollections>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoDatabaseImpl.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoDatabaseImpl.ListCollections(ListCollectionsOptions options, CancellationToken cancellationToken)
+   at Volo.Abp.MongoDB.MongoModelBuilder.CreateCollectionIfNotExists(AbpMongoDbContext dbContext, String collectionName, CreateCollectionOptions createCollectionOptions)
+   at Volo.Abp.MongoDB.MongoModelBuilder.Build(AbpMongoDbContext dbContext)
+   at Volo.Abp.MongoDB.MongoModelSource.CreateModel(AbpMongoDbContext dbContext)
+   at Volo.Abp.MongoDB.MongoModelSource.<>c__DisplayClass1_0.<GetModel>b__0(Type _)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Volo.Abp.MongoDB.MongoModelSource.GetModel(AbpMongoDbContext dbContext)
+   at Volo.Abp.MongoDB.AbpMongoDbContext.GetEntityModel[TEntity]()
+   at Volo.Abp.MongoDB.AbpMongoDbContext.GetCollectionName[T]()
+   at Volo.Abp.MongoDB.AbpMongoDbContext.Collection[T]()
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.GetMongoQueryableAsync[TOtherEntity](CancellationToken cancellationToken, AggregateOptions aggregateOptions)
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.UpdateChangedSettingsAsync(List`1 SettingRecords)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.AbpSettingManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticSettingsToDatabaseAsync>b__1>d.MoveNext()
+2024-07-06 20:44:16.585 +08:00 [INF] Starting web host.
+2024-07-06 20:44:18.893 +08:00 [INF] Loaded ABP modules:
+2024-07-06 20:44:18.894 +08:00 [INF] - LibraryManagement.Web.LibraryManagementWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - LibraryManagement.LibraryManagementHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - LibraryManagement.LibraryManagementApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - LibraryManagement.LibraryManagementDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2024-07-06 20:44:18.894 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2024-07-06 20:44:18.894 +08:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2024-07-06 20:44:18.894 +08:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-07-06 20:44:18.894 +08:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-07-06 20:44:18.894 +08:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2024-07-06 20:44:18.894 +08:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2024-07-06 20:44:18.894 +08:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - LibraryManagement.LibraryManagementApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - LibraryManagement.LibraryManagementDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-07-06 20:44:18.894 +08:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-07-06 20:44:18.894 +08:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - LibraryManagement.MongoDB.LibraryManagementMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.PermissionManagement.MongoDB.AbpPermissionManagementMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.MongoDB.AbpMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.SettingManagement.MongoDB.AbpSettingManagementMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.Identity.MongoDB.AbpIdentityMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.OpenIddict.MongoDB.AbpOpenIddictMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.BackgroundJobs.MongoDB.AbpBackgroundJobsMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.TenantManagement.MongoDB.AbpTenantManagementMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.FeatureManagement.MongoDB.AbpFeatureManagementMongoDbModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2024-07-06 20:44:18.894 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.SettingManagement.Web.AbpSettingManagementWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.Account.Web.AbpAccountWebOpenIddictModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.Account.Web.AbpAccountWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2024-07-06 20:44:18.894 +08:00 [INF]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.AbpAspNetCoreMvcUiLeptonXLiteThemeModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.TenantManagement.Web.AbpTenantManagementWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementWebModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-07-06 20:44:18.894 +08:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-07-06 20:44:19.003 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2024-07-06 20:44:19.014 +08:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2024-07-06 20:44:19.515 +08:00 [INF] User profile is available. Using '/Users/satoaki/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-07-06 20:44:19.677 +08:00 [INF] Initialized all ABP modules.
+2024-07-06 20:44:20.119 +08:00 [INF] Now listening on: https://localhost:44364
+2024-07-06 20:44:20.120 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 20:44:20.120 +08:00 [INF] Hosting environment: Development
+2024-07-06 20:44:20.120 +08:00 [INF] Content root path: /Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web
+2024-07-06 20:44:20.185 +08:00 [ERR] This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+MongoDB.Driver.MongoCommandException: This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+ ---> MongoDB.Driver.MongoCommandException: Command aggregate failed: Transaction numbers are only allowed on a replica set member or mongos.
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.AggregateAsync[TResult](IClientSessionHandle session, PipelineDefinition`2 pipeline, AggregateOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToExecutableQueryTranslators.ExecutableQuery`3.ExecuteAsync(IClientSessionHandle session, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.UpdateChangedFeatureGroupsAsync(IEnumerable`1 featureGroupRecords)
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.SaveAsync()
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.SaveAsync()
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.SaveAsync()
+   at Volo.Abp.FeatureManagement.StaticFeatureSaver.SaveAsync()
+   at Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticFeaturesToDatabaseAsync>b__1>d.MoveNext()
+2024-07-06 20:44:20.185 +08:00 [ERR] This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+MongoDB.Driver.MongoCommandException: This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+ ---> MongoDB.Driver.MongoCommandException: Command aggregate failed: Transaction numbers are only allowed on a replica set member or mongos.
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.AggregateAsync[TResult](IClientSessionHandle session, PipelineDefinition`2 pipeline, AggregateOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToExecutableQueryTranslators.ExecutableQuery`3.ExecuteAsync(IClientSessionHandle session, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.UpdateChangedPermissionGroupsAsync(IEnumerable`1 permissionGroupRecords)
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.StaticPermissionSaver.SaveAsync()
+   at Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticPermissionsToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+2024-07-06 20:44:20.185 +08:00 [ERR] This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+MongoDB.Driver.MongoCommandException: This MongoDB deployment does not support retryable writes. Please add retryWrites=false to your connection string.
+ ---> MongoDB.Driver.MongoCommandException: Command aggregate failed: Transaction numbers are only allowed on a replica set member or mongos.
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.AggregateOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.AggregateAsync[TResult](IClientSessionHandle session, PipelineDefinition`2 pipeline, AggregateOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToExecutableQueryTranslators.ExecutableQuery`3.ExecuteAsync(IClientSessionHandle session, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.GetListAsync(Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.UpdateChangedSettingsAsync(List`1 SettingRecords)
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Volo.Abp.SettingManagement.StaticSettingSaver.SaveAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.AbpSettingManagementDomainModule.<>c__DisplayClass8_0.<<SaveStaticSettingsToDatabaseAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+2024-07-06 20:44:21.608 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2024-07-06 20:44:25.142 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:25.153 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:25.156 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:44:25.156 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:44:25.157 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:25.172 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:44:25.176 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:25.176 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:44:25.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:44:25.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:44:25.178 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:44:25.179 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:25.179 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:25.179 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:44:25.325 +08:00 [WRN] Tenant not found!
+Volo.Abp.BusinessException: Tenant not found!
+   at Volo.Abp.MultiTenancy.TenantConfigurationProvider.GetAsync(Boolean saveResolveResult)
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+2024-07-06 20:44:25.325 +08:00 [WRN] Code:Volo.AbpIo.MultiTenancy:010001
+2024-07-06 20:44:25.325 +08:00 [WRN] Details:There is no tenant with the tenant id or name: d3f9e795-8eb0-14af-03b8-3a12d12aadd5
+2024-07-06 20:44:25.347 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 404 null text/html 3739.022ms
+2024-07-06 20:44:25.540 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/favicon.ico - null null
+2024-07-06 20:44:25.556 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'N/A'
+2024-07-06 20:44:25.557 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/favicon.ico - 200 38078 image/x-icon 17.0008ms
+2024-07-06 20:44:40.197 +08:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2024-07-06 20:44:41.201 +08:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2024-07-06 20:44:42.195 +08:00 [WRN] Current database does not support transactions. Your database may remain in an inconsistent state in an error case.
+2024-07-06 20:44:57.665 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2024-07-06 20:44:57.672 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:57.674 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:57.674 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:44:57.674 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:44:57.674 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:57.677 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:44:57.678 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:57.678 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:44:57.678 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:44:57.678 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:44:57.679 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:44:57.679 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:57.679 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:57.679 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:44:57.833 +08:00 [INF] Executing endpoint '/Index'
+2024-07-06 20:44:57.850 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2024-07-06 20:44:57.852 +08:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2024-07-06 20:44:57.867 +08:00 [INF] Executing handler method LibraryManagement.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-07-06 20:44:57.867 +08:00 [INF] Executed handler method OnGet, returned result .
+2024-07-06 20:44:57.869 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-07-06 20:44:57.869 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-07-06 20:44:58.009 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.010 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/all.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.010 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/v4-shims.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.010 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.010 +08:00 [ERR] Could not find the bundle file '/libs/select2/css/select2.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.011 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.011 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/css/dataTables.bootstrap5.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.011 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.011 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.013 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 12.30 ms.
+2024-07-06 20:44:58.021 +08:00 [DBG] Added bundle 'Pages.Index' to the page in 0.66 ms.
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/abp/utils/abp-utils.umd.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/jquery/jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/abp/jquery/abp.jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap/js/bootstrap.bundle.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/lodash/lodash.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation/jquery.validate.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/jquery-form/jquery.form.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/select2/js/select2.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.208 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net/js/jquery.dataTables.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/js/dataTables.bootstrap5.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/sweetalert2/sweetalert2.all.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/luxon/luxon.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/abp/luxon/abp.luxon.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/timeago/jquery.timeago.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/moment/moment.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.209 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:44:58.211 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 7.46 ms.
+2024-07-06 20:44:58.217 +08:00 [DBG] Added bundle 'Pages.Index' to the page in 0.39 ms.
+2024-07-06 20:44:58.226 +08:00 [INF] Executed page /Index in 373.3884ms
+2024-07-06 20:44:58.227 +08:00 [INF] Executed endpoint '/Index'
+2024-07-06 20:44:58.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/bootstrap-dim.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.375 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-styles.css?_v=638549833740000000 - null null
+2024-07-06 20:44:58.375 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css?_v=638549833740000000 - null null
+2024-07-06 20:44:58.403 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/js-bundle.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.430 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/abp-bundle.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.430 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/layout-bundle.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.432 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/font-bundle.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.434 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css?_v=638550048240000000 - null null
+2024-07-06 20:44:58.436 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 200 null text/html; charset=utf-8 771.8093ms
+2024-07-06 20:44:58.438 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/global-styles.css?_v=638558607952252306 - null null
+2024-07-06 20:44:58.440 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-styles.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-styles.css?_v=638549833740000000 - 200 338 text/css 65.052ms
+2024-07-06 20:44:58.440 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/css/abp-bundle.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/abp-bundle.css?_v=638550048240000000 - 200 3385 text/css 10.4132ms
+2024-07-06 20:44:58.440 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/ui-extensions.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.440 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Pages/Index.css?_v=638558607952224520 - null null
+2024-07-06 20:44:58.517 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.537 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/css/font-bundle.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.538 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css?_v=638549833740000000 - 200 266 text/css 162.7205ms
+2024-07-06 20:44:58.538 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/font-bundle.css?_v=638550048240000000 - 200 48 text/css 105.1979ms
+2024-07-06 20:44:58.560 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.639 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/css/js-bundle.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/js-bundle.css?_v=638550048240000000 - 200 27971 text/css 236.2473ms
+2024-07-06 20:44:58.639 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/ui-extensions.js'. Physical path: 'N/A'
+2024-07-06 20:44:58.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/ui-extensions.js?_v=638549833740000000 - 200 10589 application/javascript 198.6224ms
+2024-07-06 20:44:58.639 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.639 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/css/layout-bundle.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css?_v=638550048240000000 - 200 74827 text/css 204.6398ms
+2024-07-06 20:44:58.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/layout-bundle.css?_v=638550048240000000 - 200 25953 text/css 209.239ms
+2024-07-06 20:44:58.639 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js'. Physical path: 'N/A'
+2024-07-06 20:44:58.639 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js?_v=638549833740000000 - 200 5965 application/javascript 78.839ms
+2024-07-06 20:44:58.667 +08:00 [INF] Sending file. Request path: '/Pages/Index.css'. Physical path: '/Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web/Pages/Index.css'
+2024-07-06 20:44:58.667 +08:00 [INF] Sending file. Request path: '/global-styles.css'. Physical path: '/Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web/wwwroot/global-styles.css'
+2024-07-06 20:44:58.668 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Pages/Index.css?_v=638558607952224520 - 200 13 text/css 227.9621ms
+2024-07-06 20:44:58.670 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/global-styles.css?_v=638558607952252306 - 200 186 text/css 232.3186ms
+2024-07-06 20:44:58.671 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.671 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/widget-manager.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.698 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js'. Physical path: 'N/A'
+2024-07-06 20:44:58.747 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js?_v=638549833740000000 - 200 3605 application/javascript 75.8029ms
+2024-07-06 20:44:58.750 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/widget-manager.js'. Physical path: 'N/A'
+2024-07-06 20:44:58.750 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/widget-manager.js?_v=638549833740000000 - 200 4790 application/javascript 79.1666ms
+2024-07-06 20:44:58.750 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/css/bootstrap-dim.css'. Physical path: 'N/A'
+2024-07-06 20:44:58.751 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/css/bootstrap-dim.css?_v=638550048240000000 - 200 262392 text/css 445.8333ms
+2024-07-06 20:44:58.752 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.753 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.875 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.899 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert2/abp-sweetalert2.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.899 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/authentication-state/authentication-state-listener.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.901 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Pages/Abp/MultiTenancy/tenant-switch.js?_v=638549833820000000 - null null
+2024-07-06 20:44:58.901 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert2/abp-sweetalert2.js'. Physical path: 'N/A'
+2024-07-06 20:44:58.900 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-extensions.js?_v=638549833740000000 - null null
+2024-07-06 20:44:58.973 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert2/abp-sweetalert2.js?_v=638549833740000000 - 200 3680 application/javascript 74.137ms
+2024-07-06 20:44:59.024 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/scripts/leptonx-mvc-ui-initializer.js?_v=638550048240000000 - null null
+2024-07-06 20:44:59.024 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/authentication-state/authentication-state-listener.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.024 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.024 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/authentication-state/authentication-state-listener.js?_v=638549833740000000 - 200 776 application/javascript 123.8486ms
+2024-07-06 20:44:59.024 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js?_v=638549833740000000 - 200 951 application/javascript 125.339ms
+2024-07-06 20:44:59.024 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - null null
+2024-07-06 20:44:59.025 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - null null
+2024-07-06 20:44:59.026 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/js/lepton-x.bundle.min.js?_v=638550048240000000 - null null
+2024-07-06 20:44:59.026 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/scripts/leptonx-mvc-ui-initializer.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.026 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/scripts/leptonx-mvc-ui-initializer.js?_v=638550048240000000 - 200 143 application/javascript 1.9161ms
+2024-07-06 20:44:59.051 +08:00 [INF] Sending file. Request path: '/Pages/Abp/MultiTenancy/tenant-switch.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.051 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Pages/Abp/MultiTenancy/tenant-switch.js?_v=638549833820000000 - 200 414 application/javascript 150.626ms
+2024-07-06 20:44:59.051 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.052 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js?_v=638549833740000000 - 200 8329 application/javascript 299.1062ms
+2024-07-06 20:44:59.052 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.053 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - null null
+2024-07-06 20:44:59.053 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Pages/Index.js?_v=638558607952225973 - null null
+2024-07-06 20:44:59.123 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-extensions.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.123 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.123 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-extensions.js?_v=638549833740000000 - 200 29160 application/javascript 222.7112ms
+2024-07-06 20:44:59.123 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js?_v=638549833740000000 - 200 22351 application/javascript 248.0456ms
+2024-07-06 20:44:59.123 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js?_v=638549833740000000 - 200 9938 application/javascript 370.5684ms
+2024-07-06 20:44:59.123 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/js/lepton-x.bundle.min.js'. Physical path: 'N/A'
+2024-07-06 20:44:59.123 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/images/logo/leptonx/logo-light.png - null null
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.124 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:44:59.125 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.149 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:44:59.149 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d - null null
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.149 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.149 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:44:59.150 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:44:59.150 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.150 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:44:59.150 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:44:59.150 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:44:59.151 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:44:59.151 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:44:59.151 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.172 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:44:59.172 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.172 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.172 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:44:59.177 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.177 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:44:59.177 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:44:59.202 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:44:59.251 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/js/lepton-x.bundle.min.js?_v=638550048240000000 - 200 31189 application/javascript 225.4327ms
+2024-07-06 20:44:59.252 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:44:59.326 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:44:59.389 +08:00 [INF] Sending file. Request path: '/Pages/Index.js'. Physical path: '/Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web/Pages/Index.js'
+2024-07-06 20:44:59.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Pages/Index.js?_v=638558607952225973 - 200 64 application/javascript 386.99ms
+2024-07-06 20:44:59.467 +08:00 [INF] Sending file. Request path: '/images/logo/leptonx/logo-light.png'. Physical path: '/Users/satoaki/work/CSsharpProjects/SelfStudyProjects/LibraryManagement/src/LibraryManagement.Web/wwwroot/images/logo/leptonx/logo-light.png'
+2024-07-06 20:44:59.467 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/images/logo/leptonx/logo-light.png - 200 33228 image/png 343.7564ms
+2024-07-06 20:44:59.467 +08:00 [INF] Sending file. Request path: '/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2'. Physical path: 'N/A'
+2024-07-06 20:44:59.467 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Themes/LeptonXLite/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d - 200 92064 font/woff2 318.1099ms
+2024-07-06 20:44:59.470 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:44:59.481 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationLocalizationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:44:59.481 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAll(Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel) on controller Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:44:59.535 +08:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-07-06 20:44:59.626 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.RegisterAsyncByInput
+2024-07-06 20:44:59.692 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:44:59.694 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.SendPasswordResetCodeAsyncByInput
+2024-07-06 20:44:59.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.VerifyPasswordResetTokenAsyncByInput
+2024-07-06 20:44:59.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.ResetPasswordAsyncByInput
+2024-07-06 20:44:59.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2024-07-06 20:44:59.725 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.Logout
+2024-07-06 20:44:59.752 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2024-07-06 20:44:59.851 +08:00 [DBG] ActionApiDescriptionModel.Create: DynamicClaims.RefreshAsync
+2024-07-06 20:44:59.875 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 370.5288ms
+2024-07-06 20:44:59.875 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:44:59.875 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - 200 38673 application/javascript 850.8747ms
+2024-07-06 20:44:59.876 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2024-07-06 20:44:59.876 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2024-07-06 20:44:59.876 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.ChangePasswordAsyncByInput
+2024-07-06 20:44:59.877 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByNameAsyncByName
+2024-07-06 20:44:59.880 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpTenant.FindTenantByIdAsyncById
+2024-07-06 20:44:59.881 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2024-07-06 20:44:59.884 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2024-07-06 20:44:59.885 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2024-07-06 20:44:59.885 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2024-07-06 20:44:59.885 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2024-07-06 20:44:59.888 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2024-07-06 20:44:59.888 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2024-07-06 20:44:59.888 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2024-07-06 20:44:59.890 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2024-07-06 20:44:59.891 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2024-07-06 20:44:59.891 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2024-07-06 20:44:59.893 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2024-07-06 20:44:59.893 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAssignableRolesAsync
+2024-07-06 20:44:59.893 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2024-07-06 20:44:59.894 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUserName
+2024-07-06 20:44:59.894 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2024-07-06 20:44:59.896 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByIdAsyncById
+2024-07-06 20:44:59.897 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByUserNameAsyncByUserName
+2024-07-06 20:44:59.899 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.SearchAsyncByInput
+2024-07-06 20:44:59.899 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.GetCountAsyncByInput
+2024-07-06 20:44:59.899 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2024-07-06 20:44:59.899 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2024-07-06 20:44:59.900 +08:00 [DBG] ActionApiDescriptionModel.Create: EmailSettings.GetAsync
+2024-07-06 20:44:59.900 +08:00 [DBG] ActionApiDescriptionModel.Create: EmailSettings.UpdateAsyncByInput
+2024-07-06 20:44:59.902 +08:00 [DBG] ActionApiDescriptionModel.Create: EmailSettings.SendTestEmailAsyncByInput
+2024-07-06 20:44:59.902 +08:00 [DBG] ActionApiDescriptionModel.Create: TimeZoneSettings.GetAsync
+2024-07-06 20:44:59.902 +08:00 [DBG] ActionApiDescriptionModel.Create: TimeZoneSettings.GetTimezonesAsync
+2024-07-06 20:44:59.902 +08:00 [DBG] ActionApiDescriptionModel.Create: TimeZoneSettings.UpdateAsyncByTimezone
+2024-07-06 20:44:59.903 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.GetAsyncById
+2024-07-06 20:44:59.905 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.GetListAsyncByInput
+2024-07-06 20:44:59.905 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.CreateAsyncByInput
+2024-07-06 20:44:59.905 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.UpdateAsyncByIdAndInput
+2024-07-06 20:44:59.905 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.DeleteAsyncById
+2024-07-06 20:44:59.905 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.GetDefaultConnectionStringAsyncById
+2024-07-06 20:44:59.932 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.UpdateDefaultConnectionStringAsyncByIdAndDefaultConnectionString
+2024-07-06 20:44:59.932 +08:00 [DBG] ActionApiDescriptionModel.Create: Tenant.DeleteDefaultConnectionStringAsyncById
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: Features.GetAsyncByProviderNameAndProviderKey
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: Features.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: Features.DeleteAsyncByProviderNameAndProviderKey
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsyncByOptions
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationLocalization.GetAsyncByInput
+2024-07-06 20:44:59.933 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2024-07-06 20:44:59.953 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:44:59.953 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 472.1193ms
+2024-07-06 20:44:59.953 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:44:59.953 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - 200 158 application/javascript 900.6345ms
+2024-07-06 20:45:01.372 +08:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-07-06 20:45:01.398 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:01.423 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 1952.7951ms
+2024-07-06 20:45:01.423 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:01.424 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - 200 7371 application/javascript 2399.0903ms
+2024-07-06 20:45:01.516 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/favicon.svg - null null
+2024-07-06 20:45:01.564 +08:00 [INF] Sending file. Request path: '/favicon.svg'. Physical path: 'N/A'
+2024-07-06 20:45:01.564 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/favicon.svg - 200 2827 image/svg+xml 47.9892ms
+2024-07-06 20:45:01.705 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Account/Login - null null
+2024-07-06 20:45:01.740 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:01.740 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:01.740 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:01.740 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:01.740 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:01.741 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:01.741 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:01.741 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:45:01.742 +08:00 [INF] Executing endpoint '/Account/Login'
+2024-07-06 20:45:01.749 +08:00 [INF] Route matched with {page = "/Account/Login", area = "", action = "", controller = ""}. Executing page /Account/Login
+2024-07-06 20:45:01.750 +08:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2024-07-06 20:45:02.205 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-07-06 20:45:02.210 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/all.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/v4-shims.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/select2/css/select2.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/css/dataTables.bootstrap5.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.341 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.342 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 1.44 ms.
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/abp/utils/abp-utils.umd.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/jquery/jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/abp/jquery/abp.jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap/js/bootstrap.bundle.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.352 +08:00 [ERR] Could not find the bundle file '/libs/lodash/lodash.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation/jquery.validate.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/jquery-form/jquery.form.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/select2/js/select2.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net/js/jquery.dataTables.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/js/dataTables.bootstrap5.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/sweetalert2/sweetalert2.all.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/luxon/luxon.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/abp/luxon/abp.luxon.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/timeago/jquery.timeago.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/moment/moment.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.353 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:02.354 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 2.40 ms.
+2024-07-06 20:45:02.357 +08:00 [DBG] Added bundle 'Volo.Abp.Account.Web.Pages.Account.LoginModel' to the page in 0.14 ms.
+2024-07-06 20:45:02.358 +08:00 [INF] Executed page /Account/Login in 608.3757ms
+2024-07-06 20:45:02.358 +08:00 [INF] Executed endpoint '/Account/Login'
+2024-07-06 20:45:02.359 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Account/Login - 200 null text/html; charset=utf-8 654.4362ms
+2024-07-06 20:45:02.405 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - null null
+2024-07-06 20:45:02.406 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - null null
+2024-07-06 20:45:02.406 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - null null
+2024-07-06 20:45:02.431 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Pages/Account/Login.js?_v=638549843100000000 - null null
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:02.431 +08:00 [INF] Sending file. Request path: '/Pages/Account/Login.js'. Physical path: 'N/A'
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:02.431 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.431 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Pages/Account/Login.js?_v=638549843100000000 - 200 585 application/javascript 0.6614ms
+2024-07-06 20:45:02.432 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:45:02.432 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.432 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:45:02.432 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:45:02.435 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:45:02.435 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:45:02.435 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:45:02.436 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.436 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:45:02.436 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:02.436 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:45:02.437 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.437 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.437 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAll(Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel) on controller Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:02.437 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.437 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationLocalizationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:02.437 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:02.439 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:02.439 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.7262ms
+2024-07-06 20:45:02.439 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.439 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - 200 158 application/javascript 32.5533ms
+2024-07-06 20:45:02.441 +08:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-07-06 20:45:02.441 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:02.544 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 106.8563ms
+2024-07-06 20:45:02.544 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.713 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - 200 38673 application/javascript 333.1981ms
+2024-07-06 20:45:02.719 +08:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-07-06 20:45:02.721 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:02.795 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 333.1388ms
+2024-07-06 20:45:02.841 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:02.873 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - 200 7371 application/javascript 467.0175ms
+2024-07-06 20:45:23.769 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44364/Account/Login - application/x-www-form-urlencoded 291
+2024-07-06 20:45:23.824 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:23.825 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:23.825 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:23.825 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:23.825 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:23.827 +08:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2024-07-06 20:45:23.827 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:23.827 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+2024-07-06 20:45:23.827 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+2024-07-06 20:45:23.840 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+2024-07-06 20:45:23.840 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+2024-07-06 20:45:23.840 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:23.840 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+2024-07-06 20:45:23.840 +08:00 [DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+2024-07-06 20:45:23.844 +08:00 [INF] Executing endpoint '/Account/Login'
+2024-07-06 20:45:23.845 +08:00 [INF] Route matched with {page = "/Account/Login", area = "", action = "", controller = ""}. Executing page /Account/Login
+2024-07-06 20:45:23.845 +08:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2024-07-06 20:45:23.872 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-07-06 20:45:24.525 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-07-06 20:45:24.779 +08:00 [DBG] Remove dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:24.792 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+2024-07-06 20:45:24.798 +08:00 [INF] Executing RedirectResult, redirecting to /.
+2024-07-06 20:45:24.799 +08:00 [INF] Executed page /Account/Login in 953.7254ms
+2024-07-06 20:45:24.799 +08:00 [INF] Executed endpoint '/Account/Login'
+2024-07-06 20:45:24.882 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44364/Account/Login - 302 0 null 1160.1525ms
+2024-07-06 20:45:24.887 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/ - null null
+2024-07-06 20:45:24.888 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:24.888 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:24.888 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:24.888 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:24.888 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:24.917 +08:00 [DBG] Get dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:24.921 +08:00 [DBG] Filling dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:25.821 +08:00 [INF] Executing endpoint '/Index'
+2024-07-06 20:45:25.822 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2024-07-06 20:45:25.822 +08:00 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2024-07-06 20:45:25.823 +08:00 [INF] Executing handler method LibraryManagement.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-07-06 20:45:25.823 +08:00 [INF] Executed handler method OnGet, returned result .
+2024-07-06 20:45:25.823 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-07-06 20:45:25.823 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-07-06 20:45:25.827 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.827 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/all.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.827 +08:00 [ERR] Could not find the bundle file '/libs/@fortawesome/fontawesome-free/css/v4-shims.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/select2/css/select2.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/css/dataTables.bootstrap5.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.828 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.css' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:25.829 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 2.27 ms.
+2024-07-06 20:45:25.830 +08:00 [DBG] Added bundle 'Pages.Index' to the page in 0.17 ms.
+2024-07-06 20:45:25.846 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.TimeZone,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:25.847 +08:00 [DBG] Not found in the cache: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.TimeZone,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:25.850 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: U,69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:25.933 +08:00 [DBG] Setting the cache items. Count: 3
+2024-07-06 20:45:25.934 +08:00 [DBG] Finished setting the cache items. Count: 3
+2024-07-06 20:45:25.939 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:SettingManagement.Emailing,pn:R,pk:admin,n:SettingManagement.TimeZone,pn:R,pk:admin,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:25.939 +08:00 [DBG] Not found in the cache: pn:R,pk:admin,n:SettingManagement.Emailing,pn:R,pk:admin,n:SettingManagement.TimeZone,pn:R,pk:admin,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:25.939 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,admin
+2024-07-06 20:45:26.036 +08:00 [DBG] Setting the cache items. Count: 3
+2024-07-06 20:45:26.036 +08:00 [DBG] Finished setting the cache items. Count: 3
+2024-07-06 20:45:26.092 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.092 +08:00 [DBG] Not found in the cache: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.092 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: U,69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:26.171 +08:00 [DBG] Setting the cache items. Count: 3
+2024-07-06 20:45:26.172 +08:00 [DBG] Finished setting the cache items. Count: 3
+2024-07-06 20:45:26.172 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.172 +08:00 [DBG] Not found in the cache: pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.172 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,admin
+2024-07-06 20:45:26.267 +08:00 [DBG] Setting the cache items. Count: 3
+2024-07-06 20:45:26.268 +08:00 [DBG] Finished setting the cache items. Count: 3
+2024-07-06 20:45:26.287 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.TimeZone,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:26.293 +08:00 [DBG] Found in the cache: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.TimeZone,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:26.293 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:SettingManagement.Emailing,pn:R,pk:admin,n:SettingManagement.TimeZone,pn:R,pk:admin,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:26.293 +08:00 [DBG] Found in the cache: pn:R,pk:admin,n:SettingManagement.Emailing,pn:R,pk:admin,n:SettingManagement.TimeZone,pn:R,pk:admin,n:FeatureManagement.ManageHostFeatures
+2024-07-06 20:45:26.294 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.294 +08:00 [DBG] Found in the cache: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.294 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.295 +08:00 [DBG] Found in the cache: pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpTenantManagement.Tenants
+2024-07-06 20:45:26.308 +08:00 [ERR] Could not find the bundle file '/libs/abp/utils/abp-utils.umd.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/abp/core/abp.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/jquery/jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/abp/jquery/abp.jquery.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap/js/bootstrap.bundle.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/lodash/lodash.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation/jquery.validate.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/jquery-form/jquery.form.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/select2/js/select2.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net/js/jquery.dataTables.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/datatables.net-bs5/js/dataTables.bootstrap5.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/sweetalert2/sweetalert2.all.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/toastr/toastr.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.309 +08:00 [ERR] Could not find the bundle file '/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/luxon/luxon.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/abp/luxon/abp.luxon.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/timeago/jquery.timeago.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-datepicker/bootstrap-datepicker.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/moment/moment.min.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.310 +08:00 [ERR] Could not find the bundle file '/libs/bootstrap-daterangepicker/daterangepicker.js' for the bundle 'LeptonXLite.Global'!
+2024-07-06 20:45:26.311 +08:00 [DBG] Added bundle 'LeptonXLite.Global' to the page in 2.78 ms.
+2024-07-06 20:45:26.311 +08:00 [DBG] Added bundle 'Pages.Index' to the page in 0.17 ms.
+2024-07-06 20:45:26.343 +08:00 [INF] Executed page /Index in 521.5838ms
+2024-07-06 20:45:26.343 +08:00 [INF] Executed endpoint '/Index'
+2024-07-06 20:45:26.344 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/ - 200 null text/html; charset=utf-8 1456.7879ms
+2024-07-06 20:45:26.383 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - null null
+2024-07-06 20:45:26.417 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - null null
+2024-07-06 20:45:26.443 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.443 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:26.443 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:26.443 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:26.444 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.444 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - null null
+2024-07-06 20:45:26.444 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.444 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:26.444 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:26.444 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:26.445 +08:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.447 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2024-07-06 20:45:26.447 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2024-07-06 20:45:26.447 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2024-07-06 20:45:26.447 +08:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2024-07-06 20:45:26.455 +08:00 [DBG] Get dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:26.455 +08:00 [DBG] Get dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:26.455 +08:00 [DBG] Get dynamic claims cache for user: 69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:26.460 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:26.460 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:26.460 +08:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:26.460 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAll(Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel) on controller Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:26.460 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationLocalizationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:26.460 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController (Volo.Abp.AspNetCore.Mvc).
+2024-07-06 20:45:26.462 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:26.462 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.6718ms
+2024-07-06 20:45:26.462 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:26.462 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ServiceProxyScript - 200 158 application/javascript 17.7456ms
+2024-07-06 20:45:26.464 +08:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-07-06 20:45:26.464 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:26.466 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.ManagePermissions,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Update.ManageRoles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.ManagePermissions,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:FeatureManagement.ManageHostFeatures,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing.Test,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.TimeZone,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.ManageFeatures,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.ManageConnectionStrings
+2024-07-06 20:45:26.466 +08:00 [DBG] Not found in the cache: pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Roles.ManagePermissions,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Update.ManageRoles,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpIdentity.Users.ManagePermissions,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:SettingManagement.Emailing.Test,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Create,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Update,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.Delete,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.ManageFeatures,pn:U,pk:69bf2b60-034a-0f20-754a-3a139a201058,n:AbpTenantManagement.Tenants.ManageConnectionStrings
+2024-07-06 20:45:26.491 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 30.7431ms
+2024-07-06 20:45:26.492 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:26.494 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: U,69bf2b60-034a-0f20-754a-3a139a201058
+2024-07-06 20:45:26.569 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationLocalizationScript?cultureName=en - 200 38673 application/javascript 186.5424ms
+2024-07-06 20:45:26.623 +08:00 [DBG] Setting the cache items. Count: 15
+2024-07-06 20:45:26.623 +08:00 [DBG] Finished setting the cache items. Count: 15
+2024-07-06 20:45:26.624 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:AbpIdentity.Roles,pn:R,pk:admin,n:AbpIdentity.Roles.Create,pn:R,pk:admin,n:AbpIdentity.Roles.Update,pn:R,pk:admin,n:AbpIdentity.Roles.Delete,pn:R,pk:admin,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:admin,n:AbpIdentity.Users,pn:R,pk:admin,n:AbpIdentity.Users.Create,pn:R,pk:admin,n:AbpIdentity.Users.Update,pn:R,pk:admin,n:AbpIdentity.Users.Update.ManageRoles,pn:R,pk:admin,n:AbpIdentity.Users.Delete,pn:R,pk:admin,n:AbpIdentity.Users.ManagePermissions,pn:R,pk:admin,n:FeatureManagement.ManageHostFeatures,pn:R,pk:admin,n:SettingManagement.Emailing,pn:R,pk:admin,n:SettingManagement.Emailing.Test,pn:R,pk:admin,n:SettingManagement.TimeZone,pn:R,pk:admin,n:AbpTenantManagement.Tenants,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Create,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Update,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Delete,pn:R,pk:admin,n:AbpTenantManagement.Tenants.ManageFeatures,pn:R,pk:admin,n:AbpTenantManagement.Tenants.ManageConnectionStrings
+2024-07-06 20:45:26.624 +08:00 [DBG] Not found in the cache: pn:R,pk:admin,n:AbpIdentity.Roles.Create,pn:R,pk:admin,n:AbpIdentity.Roles.Update,pn:R,pk:admin,n:AbpIdentity.Roles.Delete,pn:R,pk:admin,n:AbpIdentity.Roles.ManagePermissions,pn:R,pk:admin,n:AbpIdentity.Users.Create,pn:R,pk:admin,n:AbpIdentity.Users.Update,pn:R,pk:admin,n:AbpIdentity.Users.Update.ManageRoles,pn:R,pk:admin,n:AbpIdentity.Users.Delete,pn:R,pk:admin,n:AbpIdentity.Users.ManagePermissions,pn:R,pk:admin,n:SettingManagement.Emailing.Test,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Create,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Update,pn:R,pk:admin,n:AbpTenantManagement.Tenants.Delete,pn:R,pk:admin,n:AbpTenantManagement.Tenants.ManageFeatures,pn:R,pk:admin,n:AbpTenantManagement.Tenants.ManageConnectionStrings
+2024-07-06 20:45:26.625 +08:00 [DBG] Getting not cache granted permissions from the repository for this provider name,key: R,admin
+2024-07-06 20:45:27.144 +08:00 [DBG] Setting the cache items. Count: 15
+2024-07-06 20:45:27.166 +08:00 [DBG] Finished setting the cache items. Count: 15
+2024-07-06 20:45:27.504 +08:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-07-06 20:45:27.510 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2024-07-06 20:45:27.513 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 1052.4317ms
+2024-07-06 20:45:27.513 +08:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-07-06 20:45:27.514 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44364/Abp/ApplicationConfigurationScript - 200 8404 application/javascript 1071.809ms
+2024-07-06 20:46:22.042 +08:00 [INF] Starting web host.
