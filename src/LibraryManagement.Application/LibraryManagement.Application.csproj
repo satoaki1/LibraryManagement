@@ -22,4 +22,10 @@
     <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
 </Project>
