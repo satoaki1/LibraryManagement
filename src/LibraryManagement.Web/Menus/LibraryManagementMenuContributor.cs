@@ -33,6 +33,19 @@ public class LibraryManagementMenuContributor : IMenuContributor
                 order: 0
             )
         );
+        context.Menu.AddItem(
+            new ApplicationMenuItem(
+                "Library",
+                l["Menu:Library"],
+                icon: "fa fa-institution"
+            ).AddItem(
+                new ApplicationMenuItem(
+                    "Library.Books",
+                    l["Menu:Books"],
+                    url: "/Books"
+                )
+            )
+        );
 
         if (MultiTenancyConsts.IsEnabled)
         {

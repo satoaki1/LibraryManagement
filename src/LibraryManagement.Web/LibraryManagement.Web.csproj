@@ -21,6 +21,7 @@
     <EmbeddedResource Remove="Logs\**" />
     <None Remove="Logs\**" />
     <None Remove="Pages\Books\" />
+    <None Remove="Pages\Books\js\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,8 +64,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\libs\" />
+    <Folder Include="Pages\Books\js\" />
   </ItemGroup>
 
+  <ItemGroup>
     <Folder Include="Pages\Books\" />
   </ItemGroup>
 </Project>
