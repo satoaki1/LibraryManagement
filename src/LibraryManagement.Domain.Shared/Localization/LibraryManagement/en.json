@@ -19,12 +19,12 @@
     "AreYouSure": "Are you sure?",
     "AreYouSureToDelete": "Are you sure you want to delete this item?",
     "Enum:BookGenre.0": "Fiction",
-    "Enum:BookGenre.1": "NonFiction",
-    "Enum:BookGenre.2": "ScienceFiction",
+    "Enum:BookGenre.1": "Non-Fiction",
+    "Enum:BookGenre.2": "Science Fiction",
     "Enum:BookGenre.3": "Mystery",
     "Enum:BookGenre.4": "Biography",
     "Enum:BookGenre.5": "History",
-    "Enum:BookGenre.6": "SelfHelp",
+    "Enum:BookGenre.6": "Self Help",
     "Enum:BookGenre.7": "Romance",
     "Enum:BookGenre.8": "Fantasy",
     "Enum:BookGenre.9": "Horror",
@@ -42,7 +42,7 @@
     "Enum:BookStatus.0": "Available",
     "Enum:BookStatus.1": "Borrowed",
     "Enum:BookStatus.2": "Reserved",
-    "Enum:BookStatus.3": "UnderMaintenance",
+    "Enum:BookStatus.3": "Under Maintenance",
     "Enum:BookStatus.4": "Lost"
   }
 }
