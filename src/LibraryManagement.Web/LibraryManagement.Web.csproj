@@ -66,8 +66,4 @@
     <Folder Include="wwwroot\libs\" />
     <Folder Include="Pages\Books\js\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\Books\" />
-  </ItemGroup>
 </Project>
